@@ -1,0 +1,17 @@
+{
+  "name": "muzik-botu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "@discordjs/voice": "^0.17.0",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.10.4",
+    "spotify-url-info": "^3.2.15",
+    "node-fetch": "^3.3.2"
+  }
+}
